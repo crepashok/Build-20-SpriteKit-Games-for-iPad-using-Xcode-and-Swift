@@ -12,7 +12,7 @@ var someFloat:Float = 5.33432
 
 var someCGFloat: CGFloat = 0.34234
 
-var someBool = true
+var someBool = false
 
 var someStringArray = ["John", "Mark", "Lucy", "Sally", "Ian"]
 
@@ -29,12 +29,30 @@ someIntArray[1]
 
 
 // IF Statements
-var score = 10
+var score = 28
 
 var lifes = 3
 
-if someBool == true {
+if score >= 10  && score <= 20 {
     
-    someString = "Mammoth Interactive"
+    someString = "10..20"
 
+} else if score >= 20  && score <= 30 {
+    
+    someString = "20..30"
+    
+} else if score >= 30  && score <= 40 {
+    
+    someString = "30..40"
+    
+} else if score >= 40  && score <= 50 {
+    
+    someString = "40..50"
+    
+} else {
+    
+    someString = "50.."
+    
 }
+
+
