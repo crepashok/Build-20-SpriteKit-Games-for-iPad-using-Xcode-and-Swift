@@ -2,7 +2,7 @@
 
 import UIKit
 
-var someString: String = "Mammoth Interactive"
+var someString: String = "Name"
 
 var someInt = -8
 
@@ -25,3 +25,16 @@ someFloat + Float(someCGFloat)
 someStringArray[4]
 
 someIntArray[1]
+
+
+
+// IF Statements
+var score = 10
+
+var lifes = 3
+
+if someBool == true {
+    
+    someString = "Mammoth Interactive"
+
+}
